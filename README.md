@@ -41,28 +41,29 @@
 
 ## Проекты
 
+### Online Checkers  
+*Golang, PostgreSQL, gRPC/Protobuf, WebSocket, Kafka, Docker, Kubernetes*  
+Май 2026 — н.в.  
+
+- Разработал микросервисную платформу на Golang для многопользовательской игры в шашки (WebSocket)  
+- Построил межсервисное взаимодействие через gRPC/Protobuf и Kafka с идемпотентной обработкой событий  
+- Спроектировал PostgreSQL-модель данных с разделением по доменным границам сервисов и миграциями  
+- Реализовал JWT/JWKS-аутентификацию для защищенных REST/WebSocket-эндпойнтов  
+- Настроил CI/CD-пайплайн: тестирование, сборка Docker-образов и деплой в Kubernetes с помощью Helm
+
 ### Hotels Booking System  
 *Golang, PostgreSQL, OAuth2, Docker, Kubernetes, Helm*  
-Сентябрь 2025 — н.в.
+Сентябрь 2025 — Май 2026
 
 - Разработал учебную микросервисную систему на Golang (API Gateway + сервисы) с REST API  
 - Реализовал взаимодействие сервисов и хранение данных в PostgreSQL  
 - Внедрил аутентификацию через OAuth2 / OpenID Connect с использованием JWT  
 - Контейнеризовал сервисы и развернул систему в Kubernetes с помощью Helm  
 
-### Crypto Price Tracker API  
-*Golang, PostgreSQL, JWT, Docker, Git*  
-Июль 2025 — Август 2025  
-
-- Реализовал REST API сервис на Golang для отслеживания цен криптовалют с JWT-аутентификацией  
-- Спроектировал структуру хранения пользователей, криптовалют и истории цен в PostgreSQL  
-- Интегрировал внешний API CoinGecko для получения данных и реализовал обновление и агрегирование цен
-- Контейнеризовал сервис и базу данных для локального развёртывания (Docker, Docker Compose)  
-
 ---
 
 ## Технические навыки
 
 **Языки:** Golang, C/C++, SQL (PostgreSQL), Python  
-**Фреймворки:** chi, sqlx, REST, OAuth2/OIDC, JWT, Django, DRF, FastAPI  
-**Инструменты:** Git, Docker, Kubernetes, Helm, RabbitMQ, GitLab CI/CD, Swagger (OpenAPI), Postman  
+**Фреймворки:** chi, sqlx, REST, OAuth2/OIDC, JWT, Django DRF, FastAPI  
+**Инструменты:** Git, Docker, Kubernetes, Helm, Kafka, GitLab CI/CD, Swagger (OpenAPI), Postman  
